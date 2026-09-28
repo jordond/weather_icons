@@ -32,12 +32,13 @@ void main() {
   });
 
   test('should throw if given a negative hour', () {
-    expect(() => TimeIcon.fromHour(-42), throwsUnsupportedError);
+    expect(() => TimeIcon.fromHour(-42), throwsRangeError );
     expect(() => TimeIcon.fromHour(1), returnsNormally);
   });
 
   test('should throw if given a hour greater than 24', () {
     expect(() => TimeIcon.fromHour(24), returnsNormally);
-    expect(() => TimeIcon.fromHour(25), throwsUnsupportedError);
+    expect(() => TimeIcon.fromHour(25), throwsRangeError  );
   });
+
 }

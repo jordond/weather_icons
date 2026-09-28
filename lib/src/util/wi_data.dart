@@ -1,13 +1,16 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
-class WIData extends IconData {
+ class WIData {
   static const String FONT_FAMILY = 'WeatherIcons';
   static const String FONT_PACKAGE = 'weather_icons';
 
-  const WIData(int value)
-      : super(
-          value,
-          fontFamily: FONT_FAMILY,
-          fontPackage: FONT_PACKAGE,
-        );
+  /// Función estática constante
+  static  IconData create(int codePoint) {
+    return   IconData(
+      codePoint,
+      fontFamily: FONT_FAMILY,
+      fontPackage: FONT_PACKAGE,
+    );
+  }
 }
+

@@ -25,7 +25,7 @@ void main() {
   });
 
   test('throw if unsupported icon with no fallback', () {
-    expect(() => WeatherIcons.fromString('not-found'), throwsUnsupportedError);
+    expect(() => WeatherIcons.fromString('not-found'), throwsArgumentError);
   });
 
   testWidgets('create a rotated child', (t) async {
@@ -57,7 +57,7 @@ void main() {
   });
 
   test('Creation of a WIData object', () {
-    final data = WIData(42);
+    final data = WIData.create(42);
     expect(data.codePoint, 42);
     expect(data.fontFamily, WIData.FONT_FAMILY);
     expect(data.fontPackage, WIData.FONT_PACKAGE);

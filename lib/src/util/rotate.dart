@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 
 /// Rotates the [child] by the [degree] degrees.
@@ -9,11 +8,11 @@ class Rotate extends StatelessWidget {
   final Alignment alignment;
 
   const Rotate({
-    Key? key,
+    super.key,
     required this.degree,
     required this.child,
     this.alignment = Alignment.center,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
