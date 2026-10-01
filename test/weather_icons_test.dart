@@ -4,7 +4,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:weather_icons/weather_icons.dart';
 import 'package:weather_icons/src/util/rotate.dart';
 
-import '../lib/src/util/wi_data.dart';
 import 'util/test_widget.dart';
 
 void main() {
@@ -56,10 +55,10 @@ void main() {
     expect(span.style!.color, expected);
   });
 
-  test('Creation of a WIData object', () {
-    final data = WIData(42);
-    expect(data.codePoint, 42);
-    expect(data.fontFamily, WIData.FONT_FAMILY);
-    expect(data.fontPackage, WIData.FONT_PACKAGE);
+  test('WeatherIcons use the bundled font', () {
+    final data = WeatherIcons.day_sunny;
+    expect(data.codePoint, 0xf00d);
+    expect(data.fontFamily, 'WeatherIcons');
+    expect(data.fontPackage, 'weather_icons');
   });
 }

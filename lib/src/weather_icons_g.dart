@@ -5,8 +5,6 @@
 
 import 'package:flutter/material.dart';
 
-import 'package:weather_icons/src/util/wi_data.dart';
-
 /// All of WeatherIcons in the form of static [IconData] variables.
 ///
 /// See [WeatherIcons](https://erikflowers.github.io/weather-icons/) for more info.
@@ -21,690 +19,918 @@ import 'package:weather_icons/src/util/wi_data.dart';
 ///     );
 class WeatherIcons {
   /// [IconData] for 'wi-day-sunny' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_sunny = const WIData(0xf00d);
+  static const IconData day_sunny = const IconData(0xf00d,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-cloudy' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_cloudy = const WIData(0xf002);
+  static const IconData day_cloudy = const IconData(0xf002,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-cloudy-gusts' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_cloudy_gusts = const WIData(0xf000);
+  static const IconData day_cloudy_gusts = const IconData(0xf000,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-cloudy-windy' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_cloudy_windy = const WIData(0xf001);
+  static const IconData day_cloudy_windy = const IconData(0xf001,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-fog' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_fog = const WIData(0xf003);
+  static const IconData day_fog = const IconData(0xf003,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-hail' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_hail = const WIData(0xf004);
+  static const IconData day_hail = const IconData(0xf004,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-haze' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_haze = const WIData(0xf0b6);
+  static const IconData day_haze = const IconData(0xf0b6,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-lightning' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_lightning = const WIData(0xf005);
+  static const IconData day_lightning = const IconData(0xf005,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-rain' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_rain = const WIData(0xf008);
+  static const IconData day_rain = const IconData(0xf008,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-rain-mix' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_rain_mix = const WIData(0xf006);
+  static const IconData day_rain_mix = const IconData(0xf006,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-rain-wind' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_rain_wind = const WIData(0xf007);
+  static const IconData day_rain_wind = const IconData(0xf007,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-showers' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_showers = const WIData(0xf009);
+  static const IconData day_showers = const IconData(0xf009,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-sleet' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_sleet = const WIData(0xf0b2);
+  static const IconData day_sleet = const IconData(0xf0b2,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-sleet-storm' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_sleet_storm = const WIData(0xf068);
+  static const IconData day_sleet_storm = const IconData(0xf068,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-snow' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_snow = const WIData(0xf00a);
+  static const IconData day_snow = const IconData(0xf00a,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-snow-thunderstorm' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_snow_thunderstorm = const WIData(0xf06b);
+  static const IconData day_snow_thunderstorm = const IconData(0xf06b,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-snow-wind' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_snow_wind = const WIData(0xf065);
+  static const IconData day_snow_wind = const IconData(0xf065,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-sprinkle' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_sprinkle = const WIData(0xf00b);
+  static const IconData day_sprinkle = const IconData(0xf00b,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-storm-showers' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_storm_showers = const WIData(0xf00e);
+  static const IconData day_storm_showers = const IconData(0xf00e,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-sunny-overcast' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_sunny_overcast = const WIData(0xf00c);
+  static const IconData day_sunny_overcast = const IconData(0xf00c,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-thunderstorm' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_thunderstorm = const WIData(0xf010);
+  static const IconData day_thunderstorm = const IconData(0xf010,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-windy' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_windy = const WIData(0xf085);
+  static const IconData day_windy = const IconData(0xf085,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-solar-eclipse' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData solar_eclipse = const WIData(0xf06e);
+  static const IconData solar_eclipse = const IconData(0xf06e,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-hot' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData hot = const WIData(0xf072);
+  static const IconData hot = const IconData(0xf072,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-cloudy-high' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_cloudy_high = const WIData(0xf07d);
+  static const IconData day_cloudy_high = const IconData(0xf07d,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-day-light-wind' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData day_light_wind = const WIData(0xf0c4);
+  static const IconData day_light_wind = const IconData(0xf0c4,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-clear' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_clear = const WIData(0xf02e);
+  static const IconData night_clear = const IconData(0xf02e,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-cloudy' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_cloudy = const WIData(0xf086);
+  static const IconData night_alt_cloudy = const IconData(0xf086,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-cloudy-gusts' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_cloudy_gusts = const WIData(0xf022);
+  static const IconData night_alt_cloudy_gusts = const IconData(0xf022,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-cloudy-windy' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_cloudy_windy = const WIData(0xf023);
+  static const IconData night_alt_cloudy_windy = const IconData(0xf023,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-hail' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_hail = const WIData(0xf024);
+  static const IconData night_alt_hail = const IconData(0xf024,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-lightning' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_lightning = const WIData(0xf025);
+  static const IconData night_alt_lightning = const IconData(0xf025,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-rain' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_rain = const WIData(0xf028);
+  static const IconData night_alt_rain = const IconData(0xf028,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-rain-mix' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_rain_mix = const WIData(0xf026);
+  static const IconData night_alt_rain_mix = const IconData(0xf026,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-rain-wind' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_rain_wind = const WIData(0xf027);
+  static const IconData night_alt_rain_wind = const IconData(0xf027,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-showers' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_showers = const WIData(0xf029);
+  static const IconData night_alt_showers = const IconData(0xf029,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-sleet' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_sleet = const WIData(0xf0b4);
+  static const IconData night_alt_sleet = const IconData(0xf0b4,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-sleet-storm' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_sleet_storm = const WIData(0xf06a);
+  static const IconData night_alt_sleet_storm = const IconData(0xf06a,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-snow' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_snow = const WIData(0xf02a);
+  static const IconData night_alt_snow = const IconData(0xf02a,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-snow-thunderstorm' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_snow_thunderstorm = const WIData(0xf06d);
+  static const IconData night_alt_snow_thunderstorm = const IconData(0xf06d,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-snow-wind' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_snow_wind = const WIData(0xf067);
+  static const IconData night_alt_snow_wind = const IconData(0xf067,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-sprinkle' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_sprinkle = const WIData(0xf02b);
+  static const IconData night_alt_sprinkle = const IconData(0xf02b,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-storm-showers' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_storm_showers = const WIData(0xf02c);
+  static const IconData night_alt_storm_showers = const IconData(0xf02c,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-thunderstorm' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_thunderstorm = const WIData(0xf02d);
+  static const IconData night_alt_thunderstorm = const IconData(0xf02d,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-cloudy' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_cloudy = const WIData(0xf031);
+  static const IconData night_cloudy = const IconData(0xf031,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-cloudy-gusts' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_cloudy_gusts = const WIData(0xf02f);
+  static const IconData night_cloudy_gusts = const IconData(0xf02f,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-cloudy-windy' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_cloudy_windy = const WIData(0xf030);
+  static const IconData night_cloudy_windy = const IconData(0xf030,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-fog' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_fog = const WIData(0xf04a);
+  static const IconData night_fog = const IconData(0xf04a,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-hail' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_hail = const WIData(0xf032);
+  static const IconData night_hail = const IconData(0xf032,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-lightning' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_lightning = const WIData(0xf033);
+  static const IconData night_lightning = const IconData(0xf033,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-partly-cloudy' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_partly_cloudy = const WIData(0xf083);
+  static const IconData night_partly_cloudy = const IconData(0xf083,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-rain' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_rain = const WIData(0xf036);
+  static const IconData night_rain = const IconData(0xf036,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-rain-mix' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_rain_mix = const WIData(0xf034);
+  static const IconData night_rain_mix = const IconData(0xf034,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-rain-wind' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_rain_wind = const WIData(0xf035);
+  static const IconData night_rain_wind = const IconData(0xf035,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-showers' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_showers = const WIData(0xf037);
+  static const IconData night_showers = const IconData(0xf037,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-sleet' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_sleet = const WIData(0xf0b3);
+  static const IconData night_sleet = const IconData(0xf0b3,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-sleet-storm' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_sleet_storm = const WIData(0xf069);
+  static const IconData night_sleet_storm = const IconData(0xf069,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-snow' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_snow = const WIData(0xf038);
+  static const IconData night_snow = const IconData(0xf038,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-snow-thunderstorm' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_snow_thunderstorm = const WIData(0xf06c);
+  static const IconData night_snow_thunderstorm = const IconData(0xf06c,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-snow-wind' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_snow_wind = const WIData(0xf066);
+  static const IconData night_snow_wind = const IconData(0xf066,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-sprinkle' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_sprinkle = const WIData(0xf039);
+  static const IconData night_sprinkle = const IconData(0xf039,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-storm-showers' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_storm_showers = const WIData(0xf03a);
+  static const IconData night_storm_showers = const IconData(0xf03a,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-thunderstorm' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_thunderstorm = const WIData(0xf03b);
+  static const IconData night_thunderstorm = const IconData(0xf03b,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-lunar-eclipse' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData lunar_eclipse = const WIData(0xf070);
+  static const IconData lunar_eclipse = const IconData(0xf070,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-stars' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData stars = const WIData(0xf077);
+  static const IconData stars = const IconData(0xf077,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-storm-showers' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData storm_showers = const WIData(0xf01d);
+  static const IconData storm_showers = const IconData(0xf01d,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-thunderstorm' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData thunderstorm = const WIData(0xf01e);
+  static const IconData thunderstorm = const IconData(0xf01e,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-cloudy-high' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_cloudy_high = const WIData(0xf07e);
+  static const IconData night_alt_cloudy_high = const IconData(0xf07e,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-cloudy-high' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_cloudy_high = const WIData(0xf080);
+  static const IconData night_cloudy_high = const IconData(0xf080,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-night-alt-partly-cloudy' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData night_alt_partly_cloudy = const WIData(0xf081);
+  static const IconData night_alt_partly_cloudy = const IconData(0xf081,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-cloud' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData cloud = const WIData(0xf041);
+  static const IconData cloud = const IconData(0xf041,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-cloudy' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData cloudy = const WIData(0xf013);
+  static const IconData cloudy = const IconData(0xf013,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-cloudy-gusts' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData cloudy_gusts = const WIData(0xf011);
+  static const IconData cloudy_gusts = const IconData(0xf011,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-cloudy-windy' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData cloudy_windy = const WIData(0xf012);
+  static const IconData cloudy_windy = const IconData(0xf012,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-fog' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData fog = const WIData(0xf014);
+  static const IconData fog = const IconData(0xf014,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-hail' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData hail = const WIData(0xf015);
+  static const IconData hail = const IconData(0xf015,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-rain' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData rain = const WIData(0xf019);
+  static const IconData rain = const IconData(0xf019,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-rain-mix' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData rain_mix = const WIData(0xf017);
+  static const IconData rain_mix = const IconData(0xf017,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-rain-wind' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData rain_wind = const WIData(0xf018);
+  static const IconData rain_wind = const IconData(0xf018,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-showers' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData showers = const WIData(0xf01a);
+  static const IconData showers = const IconData(0xf01a,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-sleet' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData sleet = const WIData(0xf0b5);
+  static const IconData sleet = const IconData(0xf0b5,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-snow' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData snow = const WIData(0xf01b);
+  static const IconData snow = const IconData(0xf01b,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-sprinkle' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData sprinkle = const WIData(0xf01c);
+  static const IconData sprinkle = const IconData(0xf01c,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-snow-wind' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData snow_wind = const WIData(0xf064);
+  static const IconData snow_wind = const IconData(0xf064,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-smog' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData smog = const WIData(0xf074);
+  static const IconData smog = const IconData(0xf074,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-smoke' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData smoke = const WIData(0xf062);
+  static const IconData smoke = const IconData(0xf062,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-lightning' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData lightning = const WIData(0xf016);
+  static const IconData lightning = const IconData(0xf016,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-raindrops' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData raindrops = const WIData(0xf04e);
+  static const IconData raindrops = const IconData(0xf04e,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-raindrop' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData raindrop = const WIData(0xf078);
+  static const IconData raindrop = const IconData(0xf078,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-dust' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData dust = const WIData(0xf063);
+  static const IconData dust = const IconData(0xf063,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-snowflake-cold' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData snowflake_cold = const WIData(0xf076);
+  static const IconData snowflake_cold = const IconData(0xf076,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-windy' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData windy = const WIData(0xf021);
+  static const IconData windy = const IconData(0xf021,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-strong-wind' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData strong_wind = const WIData(0xf050);
+  static const IconData strong_wind = const IconData(0xf050,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-sandstorm' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData sandstorm = const WIData(0xf082);
+  static const IconData sandstorm = const IconData(0xf082,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-earthquake' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData earthquake = const WIData(0xf0c6);
+  static const IconData earthquake = const IconData(0xf0c6,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-fire' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData fire = const WIData(0xf0c7);
+  static const IconData fire = const IconData(0xf0c7,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-flood' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData flood = const WIData(0xf07c);
+  static const IconData flood = const IconData(0xf07c,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-meteor' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData meteor = const WIData(0xf071);
+  static const IconData meteor = const IconData(0xf071,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-tsunami' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData tsunami = const WIData(0xf0c5);
+  static const IconData tsunami = const IconData(0xf0c5,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-volcano' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData volcano = const WIData(0xf0c8);
+  static const IconData volcano = const IconData(0xf0c8,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-hurricane' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData hurricane = const WIData(0xf073);
+  static const IconData hurricane = const IconData(0xf073,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-tornado' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData tornado = const WIData(0xf056);
+  static const IconData tornado = const IconData(0xf056,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-small-craft-advisory' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData small_craft_advisory = const WIData(0xf0cc);
+  static const IconData small_craft_advisory = const IconData(0xf0cc,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-gale-warning' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData gale_warning = const WIData(0xf0cd);
+  static const IconData gale_warning = const IconData(0xf0cd,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-storm-warning' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData storm_warning = const WIData(0xf0ce);
+  static const IconData storm_warning = const IconData(0xf0ce,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-hurricane-warning' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData hurricane_warning = const WIData(0xf0cf);
+  static const IconData hurricane_warning = const IconData(0xf0cf,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-wind-direction' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_direction = const WIData(0xf0b1);
+  static const IconData wind_direction = const IconData(0xf0b1,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-alien' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData alien = const WIData(0xf075);
+  static const IconData alien = const IconData(0xf075,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-celsius' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData celsius = const WIData(0xf03c);
+  static const IconData celsius = const IconData(0xf03c,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-fahrenheit' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData fahrenheit = const WIData(0xf045);
+  static const IconData fahrenheit = const IconData(0xf045,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-degrees' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData degrees = const WIData(0xf042);
+  static const IconData degrees = const IconData(0xf042,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-thermometer' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData thermometer = const WIData(0xf055);
+  static const IconData thermometer = const IconData(0xf055,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-thermometer-exterior' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData thermometer_exterior = const WIData(0xf053);
+  static const IconData thermometer_exterior = const IconData(0xf053,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-thermometer-internal' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData thermometer_internal = const WIData(0xf054);
+  static const IconData thermometer_internal = const IconData(0xf054,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-cloud-down' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData cloud_down = const WIData(0xf03d);
+  static const IconData cloud_down = const IconData(0xf03d,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-cloud-up' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData cloud_up = const WIData(0xf040);
+  static const IconData cloud_up = const IconData(0xf040,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-cloud-refresh' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData cloud_refresh = const WIData(0xf03e);
+  static const IconData cloud_refresh = const IconData(0xf03e,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-horizon' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData horizon = const WIData(0xf047);
+  static const IconData horizon = const IconData(0xf047,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-horizon-alt' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData horizon_alt = const WIData(0xf046);
+  static const IconData horizon_alt = const IconData(0xf046,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-sunrise' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData sunrise = const WIData(0xf051);
+  static const IconData sunrise = const IconData(0xf051,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-sunset' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData sunset = const WIData(0xf052);
+  static const IconData sunset = const IconData(0xf052,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moonrise' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moonrise = const WIData(0xf0c9);
+  static const IconData moonrise = const IconData(0xf0c9,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moonset' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moonset = const WIData(0xf0ca);
+  static const IconData moonset = const IconData(0xf0ca,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-refresh' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData refresh = const WIData(0xf04c);
+  static const IconData refresh = const IconData(0xf04c,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-refresh-alt' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData refresh_alt = const WIData(0xf04b);
+  static const IconData refresh_alt = const IconData(0xf04b,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-umbrella' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData umbrella = const WIData(0xf084);
+  static const IconData umbrella = const IconData(0xf084,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-barometer' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData barometer = const WIData(0xf079);
+  static const IconData barometer = const IconData(0xf079,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-humidity' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData humidity = const WIData(0xf07a);
+  static const IconData humidity = const IconData(0xf07a,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-na' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData na = const WIData(0xf07b);
+  static const IconData na = const IconData(0xf07b,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-train' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData train = const WIData(0xf0cb);
+  static const IconData train = const IconData(0xf0cb,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-new' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_new = const WIData(0xf095);
+  static const IconData moon_new = const IconData(0xf095,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waxing-crescent-1' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waxing_crescent_1 = const WIData(0xf096);
+  static const IconData moon_waxing_crescent_1 = const IconData(0xf096,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waxing-crescent-2' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waxing_crescent_2 = const WIData(0xf097);
+  static const IconData moon_waxing_crescent_2 = const IconData(0xf097,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waxing-crescent-3' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waxing_crescent_3 = const WIData(0xf098);
+  static const IconData moon_waxing_crescent_3 = const IconData(0xf098,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waxing-crescent-4' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waxing_crescent_4 = const WIData(0xf099);
+  static const IconData moon_waxing_crescent_4 = const IconData(0xf099,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waxing-crescent-5' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waxing_crescent_5 = const WIData(0xf09a);
+  static const IconData moon_waxing_crescent_5 = const IconData(0xf09a,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waxing-crescent-6' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waxing_crescent_6 = const WIData(0xf09b);
+  static const IconData moon_waxing_crescent_6 = const IconData(0xf09b,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-first-quarter' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_first_quarter = const WIData(0xf09c);
+  static const IconData moon_first_quarter = const IconData(0xf09c,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waxing-gibbous-1' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waxing_gibbous_1 = const WIData(0xf09d);
+  static const IconData moon_waxing_gibbous_1 = const IconData(0xf09d,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waxing-gibbous-2' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waxing_gibbous_2 = const WIData(0xf09e);
+  static const IconData moon_waxing_gibbous_2 = const IconData(0xf09e,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waxing-gibbous-3' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waxing_gibbous_3 = const WIData(0xf09f);
+  static const IconData moon_waxing_gibbous_3 = const IconData(0xf09f,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waxing-gibbous-4' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waxing_gibbous_4 = const WIData(0xf0a0);
+  static const IconData moon_waxing_gibbous_4 = const IconData(0xf0a0,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waxing-gibbous-5' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waxing_gibbous_5 = const WIData(0xf0a1);
+  static const IconData moon_waxing_gibbous_5 = const IconData(0xf0a1,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waxing-gibbous-6' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waxing_gibbous_6 = const WIData(0xf0a2);
+  static const IconData moon_waxing_gibbous_6 = const IconData(0xf0a2,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-full' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_full = const WIData(0xf0a3);
+  static const IconData moon_full = const IconData(0xf0a3,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waning-gibbous-1' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waning_gibbous_1 = const WIData(0xf0a4);
+  static const IconData moon_waning_gibbous_1 = const IconData(0xf0a4,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waning-gibbous-2' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waning_gibbous_2 = const WIData(0xf0a5);
+  static const IconData moon_waning_gibbous_2 = const IconData(0xf0a5,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waning-gibbous-3' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waning_gibbous_3 = const WIData(0xf0a6);
+  static const IconData moon_waning_gibbous_3 = const IconData(0xf0a6,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waning-gibbous-4' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waning_gibbous_4 = const WIData(0xf0a7);
+  static const IconData moon_waning_gibbous_4 = const IconData(0xf0a7,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waning-gibbous-5' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waning_gibbous_5 = const WIData(0xf0a8);
+  static const IconData moon_waning_gibbous_5 = const IconData(0xf0a8,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waning-gibbous-6' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waning_gibbous_6 = const WIData(0xf0a9);
+  static const IconData moon_waning_gibbous_6 = const IconData(0xf0a9,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-third-quarter' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_third_quarter = const WIData(0xf0aa);
+  static const IconData moon_third_quarter = const IconData(0xf0aa,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waning-crescent-1' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waning_crescent_1 = const WIData(0xf0ab);
+  static const IconData moon_waning_crescent_1 = const IconData(0xf0ab,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waning-crescent-2' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waning_crescent_2 = const WIData(0xf0ac);
+  static const IconData moon_waning_crescent_2 = const IconData(0xf0ac,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waning-crescent-3' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waning_crescent_3 = const WIData(0xf0ad);
+  static const IconData moon_waning_crescent_3 = const IconData(0xf0ad,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waning-crescent-4' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waning_crescent_4 = const WIData(0xf0ae);
+  static const IconData moon_waning_crescent_4 = const IconData(0xf0ae,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waning-crescent-5' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waning_crescent_5 = const WIData(0xf0af);
+  static const IconData moon_waning_crescent_5 = const IconData(0xf0af,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-waning-crescent-6' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_waning_crescent_6 = const WIData(0xf0b0);
+  static const IconData moon_waning_crescent_6 = const IconData(0xf0b0,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-new' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_new = const WIData(0xf0eb);
+  static const IconData moon_alt_new = const IconData(0xf0eb,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waxing-crescent-1' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waxing_crescent_1 = const WIData(0xf0d0);
+  static const IconData moon_alt_waxing_crescent_1 = const IconData(0xf0d0,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waxing-crescent-2' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waxing_crescent_2 = const WIData(0xf0d1);
+  static const IconData moon_alt_waxing_crescent_2 = const IconData(0xf0d1,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waxing-crescent-3' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waxing_crescent_3 = const WIData(0xf0d2);
+  static const IconData moon_alt_waxing_crescent_3 = const IconData(0xf0d2,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waxing-crescent-4' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waxing_crescent_4 = const WIData(0xf0d3);
+  static const IconData moon_alt_waxing_crescent_4 = const IconData(0xf0d3,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waxing-crescent-5' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waxing_crescent_5 = const WIData(0xf0d4);
+  static const IconData moon_alt_waxing_crescent_5 = const IconData(0xf0d4,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waxing-crescent-6' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waxing_crescent_6 = const WIData(0xf0d5);
+  static const IconData moon_alt_waxing_crescent_6 = const IconData(0xf0d5,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-first-quarter' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_first_quarter = const WIData(0xf0d6);
+  static const IconData moon_alt_first_quarter = const IconData(0xf0d6,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waxing-gibbous-1' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waxing_gibbous_1 = const WIData(0xf0d7);
+  static const IconData moon_alt_waxing_gibbous_1 = const IconData(0xf0d7,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waxing-gibbous-2' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waxing_gibbous_2 = const WIData(0xf0d8);
+  static const IconData moon_alt_waxing_gibbous_2 = const IconData(0xf0d8,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waxing-gibbous-3' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waxing_gibbous_3 = const WIData(0xf0d9);
+  static const IconData moon_alt_waxing_gibbous_3 = const IconData(0xf0d9,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waxing-gibbous-4' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waxing_gibbous_4 = const WIData(0xf0da);
+  static const IconData moon_alt_waxing_gibbous_4 = const IconData(0xf0da,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waxing-gibbous-5' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waxing_gibbous_5 = const WIData(0xf0db);
+  static const IconData moon_alt_waxing_gibbous_5 = const IconData(0xf0db,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waxing-gibbous-6' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waxing_gibbous_6 = const WIData(0xf0dc);
+  static const IconData moon_alt_waxing_gibbous_6 = const IconData(0xf0dc,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-full' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_full = const WIData(0xf0dd);
+  static const IconData moon_alt_full = const IconData(0xf0dd,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waning-gibbous-1' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waning_gibbous_1 = const WIData(0xf0de);
+  static const IconData moon_alt_waning_gibbous_1 = const IconData(0xf0de,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waning-gibbous-2' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waning_gibbous_2 = const WIData(0xf0df);
+  static const IconData moon_alt_waning_gibbous_2 = const IconData(0xf0df,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waning-gibbous-3' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waning_gibbous_3 = const WIData(0xf0e0);
+  static const IconData moon_alt_waning_gibbous_3 = const IconData(0xf0e0,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waning-gibbous-4' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waning_gibbous_4 = const WIData(0xf0e1);
+  static const IconData moon_alt_waning_gibbous_4 = const IconData(0xf0e1,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waning-gibbous-5' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waning_gibbous_5 = const WIData(0xf0e2);
+  static const IconData moon_alt_waning_gibbous_5 = const IconData(0xf0e2,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waning-gibbous-6' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waning_gibbous_6 = const WIData(0xf0e3);
+  static const IconData moon_alt_waning_gibbous_6 = const IconData(0xf0e3,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-third-quarter' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_third_quarter = const WIData(0xf0e4);
+  static const IconData moon_alt_third_quarter = const IconData(0xf0e4,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waning-crescent-1' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waning_crescent_1 = const WIData(0xf0e5);
+  static const IconData moon_alt_waning_crescent_1 = const IconData(0xf0e5,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waning-crescent-2' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waning_crescent_2 = const WIData(0xf0e6);
+  static const IconData moon_alt_waning_crescent_2 = const IconData(0xf0e6,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waning-crescent-3' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waning_crescent_3 = const WIData(0xf0e7);
+  static const IconData moon_alt_waning_crescent_3 = const IconData(0xf0e7,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waning-crescent-4' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waning_crescent_4 = const WIData(0xf0e8);
+  static const IconData moon_alt_waning_crescent_4 = const IconData(0xf0e8,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waning-crescent-5' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waning_crescent_5 = const WIData(0xf0e9);
+  static const IconData moon_alt_waning_crescent_5 = const IconData(0xf0e9,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-moon-alt-waning-crescent-6' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData moon_alt_waning_crescent_6 = const WIData(0xf0ea);
+  static const IconData moon_alt_waning_crescent_6 = const IconData(0xf0ea,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-time-1' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData time_1 = const WIData(0xf08a);
+  static const IconData time_1 = const IconData(0xf08a,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-time-2' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData time_2 = const WIData(0xf08b);
+  static const IconData time_2 = const IconData(0xf08b,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-time-3' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData time_3 = const WIData(0xf08c);
+  static const IconData time_3 = const IconData(0xf08c,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-time-4' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData time_4 = const WIData(0xf08d);
+  static const IconData time_4 = const IconData(0xf08d,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-time-5' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData time_5 = const WIData(0xf08e);
+  static const IconData time_5 = const IconData(0xf08e,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-time-6' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData time_6 = const WIData(0xf08f);
+  static const IconData time_6 = const IconData(0xf08f,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-time-7' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData time_7 = const WIData(0xf090);
+  static const IconData time_7 = const IconData(0xf090,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-time-8' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData time_8 = const WIData(0xf091);
+  static const IconData time_8 = const IconData(0xf091,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-time-9' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData time_9 = const WIData(0xf092);
+  static const IconData time_9 = const IconData(0xf092,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-time-10' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData time_10 = const WIData(0xf093);
+  static const IconData time_10 = const IconData(0xf093,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-time-11' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData time_11 = const WIData(0xf094);
+  static const IconData time_11 = const IconData(0xf094,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-time-12' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData time_12 = const WIData(0xf089);
+  static const IconData time_12 = const IconData(0xf089,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-direction-up' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData direction_up = const WIData(0xf058);
+  static const IconData direction_up = const IconData(0xf058,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-direction-up-right' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData direction_up_right = const WIData(0xf057);
+  static const IconData direction_up_right = const IconData(0xf057,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-direction-right' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData direction_right = const WIData(0xf04d);
+  static const IconData direction_right = const IconData(0xf04d,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-direction-down-right' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData direction_down_right = const WIData(0xf088);
+  static const IconData direction_down_right = const IconData(0xf088,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-direction-down' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData direction_down = const WIData(0xf044);
+  static const IconData direction_down = const IconData(0xf044,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-direction-down-left' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData direction_down_left = const WIData(0xf043);
+  static const IconData direction_down_left = const IconData(0xf043,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-direction-left' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData direction_left = const WIData(0xf048);
+  static const IconData direction_left = const IconData(0xf048,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-direction-up-left' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData direction_up_left = const WIData(0xf087);
+  static const IconData direction_up_left = const IconData(0xf087,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-wind-beaufort-0' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_beaufort_0 = const WIData(0xf0b7);
+  static const IconData wind_beaufort_0 = const IconData(0xf0b7,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-wind-beaufort-1' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_beaufort_1 = const WIData(0xf0b8);
+  static const IconData wind_beaufort_1 = const IconData(0xf0b8,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-wind-beaufort-2' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_beaufort_2 = const WIData(0xf0b9);
+  static const IconData wind_beaufort_2 = const IconData(0xf0b9,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-wind-beaufort-3' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_beaufort_3 = const WIData(0xf0ba);
+  static const IconData wind_beaufort_3 = const IconData(0xf0ba,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-wind-beaufort-4' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_beaufort_4 = const WIData(0xf0bb);
+  static const IconData wind_beaufort_4 = const IconData(0xf0bb,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-wind-beaufort-5' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_beaufort_5 = const WIData(0xf0bc);
+  static const IconData wind_beaufort_5 = const IconData(0xf0bc,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-wind-beaufort-6' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_beaufort_6 = const WIData(0xf0bd);
+  static const IconData wind_beaufort_6 = const IconData(0xf0bd,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-wind-beaufort-7' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_beaufort_7 = const WIData(0xf0be);
+  static const IconData wind_beaufort_7 = const IconData(0xf0be,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-wind-beaufort-8' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_beaufort_8 = const WIData(0xf0bf);
+  static const IconData wind_beaufort_8 = const IconData(0xf0bf,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-wind-beaufort-9' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_beaufort_9 = const WIData(0xf0c0);
+  static const IconData wind_beaufort_9 = const IconData(0xf0c0,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-wind-beaufort-10' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_beaufort_10 = const WIData(0xf0c1);
+  static const IconData wind_beaufort_10 = const IconData(0xf0c1,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-wind-beaufort-11' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_beaufort_11 = const WIData(0xf0c2);
+  static const IconData wind_beaufort_11 = const IconData(0xf0c2,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wi-wind-beaufort-12' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_beaufort_12 = const WIData(0xf0c3);
+  static const IconData wind_beaufort_12 = const IconData(0xf0c3,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for the base wind icon from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
   ///
   /// To achieve a rotated wind icon see [WindIcon].
-  static const IconData wind = const WIData(0xf0b1);
+  static const IconData wind = const IconData(0xf0b1,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wind-deg-0' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_deg_0 = const WIData(0xf05c);
+  static const IconData wind_deg_0 = const IconData(0xf05c,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wind-deg-45' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_deg_45 = const WIData(0xf05a);
+  static const IconData wind_deg_45 = const IconData(0xf05a,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wind-deg-90' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_deg_90 = const WIData(0xf059);
+  static const IconData wind_deg_90 = const IconData(0xf059,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wind-deg-135' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_deg_135 = const WIData(0xf05d);
+  static const IconData wind_deg_135 = const IconData(0xf05d,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wind-deg-180' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_deg_180 = const WIData(0xf060);
+  static const IconData wind_deg_180 = const IconData(0xf060,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wind-deg-225' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_deg_225 = const WIData(0xf05e);
+  static const IconData wind_deg_225 = const IconData(0xf05e,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wind-deg-270' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_deg_270 = const WIData(0xf061);
+  static const IconData wind_deg_270 = const IconData(0xf061,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// [IconData] for 'wind-deg-315' from [WeatherIcons](https://erikflowers.github.io/weather-icons/).
-  static const IconData wind_deg_315 = const WIData(0xf05b);
+  static const IconData wind_deg_315 = const IconData(0xf05b,
+      fontFamily: 'WeatherIcons', fontPackage: 'weather_icons');
 
   /// Get the matching [IconData] from the WeatherIcon name.
   ///

@@ -139,7 +139,11 @@ function generateIcon(title, code) {
 
   const icon = `
   ${comment}
-  static const IconData ${name} = const WIData(0x${code});`.trimLeft()
+  static const IconData ${name} = const IconData(
+    0x${code},
+    fontFamily: 'WeatherIcons',
+    fontPackage: 'weather_icons',
+  );`.trimLeft()
 
   if (verbose) console.log(`Generating: ${icon}`)
   return icon
@@ -164,8 +168,6 @@ function generateDartFile(iconData, date) {
 ${genHeader(date)}
 
 import 'package:flutter/material.dart';
-
-import 'package:weather_icons/src/util/wi_data.dart';
 
 /// All of WeatherIcons in the form of static [IconData] variables.
 ///
